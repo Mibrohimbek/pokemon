@@ -3501,28 +3501,3 @@ pokemons.forEach((poc) => {
   box.append(div_img, id, name, height, weight, weaknesses);
   boxes.appendChild(box);
 });
-
-//
-// let gParent= document.querySelector(".boxes")
-// pokemon.forEach((pok) => {
-// let box = document.createElement('div');
-// box.classList.list.add"box";
-// let pokImg = document.createElement('img');
-// let pokDiv = document.createElement('ul');
-// let liA = document.createElement('li');
-// let liB = document.createElement('li');
-// let liC = document.createElement('li');
-// let liD = document.createElement('li');
-// let liE = document.createElement('li');
-// let pokP = document.createElement('p');
-// pokImg.src=pok.img;
-// liA.textContent=pok.id;
-// liB.textContent=pok.name;
-// liC.textContent=pok.spawn_time;
-// liD.textContent=`height:${pok.height}`;
-// liE.textContent = `weight:${pok.weight}`;
-// pokP.textContent=pok.weaknesses;
-// pokDiv.append(liA, liB, liC, liD, liE);
-// box.append(pokImg,pokDiv, pokP);
-// gParent.appendChild(box);
-// })
